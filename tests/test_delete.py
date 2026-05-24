@@ -1,6 +1,7 @@
 """Tests for delete operations."""
 
 import pytest
+
 from trie import Trie, TrieError
 
 

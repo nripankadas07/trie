@@ -1,7 +1,6 @@
 """Tests for edge cases and dunder methods."""
 
-import pytest
-from trie import Trie, TrieError
+from trie import Trie
 
 
 class TestDunderMethods:

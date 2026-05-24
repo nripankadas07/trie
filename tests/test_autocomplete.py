@@ -1,6 +1,7 @@
 """Tests for autocomplete and prefix search operations."""
 
 import pytest
+
 from trie import Trie, TrieError
 
 

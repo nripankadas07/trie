@@ -1,6 +1,7 @@
 """Tests for error handling."""
 
 import pytest
+
 from trie import Trie, TrieError
 
 

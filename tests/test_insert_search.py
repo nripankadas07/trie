@@ -1,6 +1,7 @@
 """Tests for insert and search operations."""
 
 import pytest
+
 from trie import Trie, TrieError
 
 
