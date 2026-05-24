@@ -5,7 +5,7 @@ A production-quality prefix tree (trie) data structure implementation in Python 
 ## Installation
 
 ```bash
-pip install trie
+python -m pip install -e .
 ```
 
 Or install from source:

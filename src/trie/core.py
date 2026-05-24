@@ -1,5 +1,7 @@
 """Core Trie data structure implementation."""
 
+from collections.abc import Iterator
+
 from trie.errors import TrieError
 from trie.node import TrieNode
 
@@ -200,7 +202,7 @@ class Trie:
             return False
         return self.search(word)
 
-    def __iter__(self):
+    def __iter__(self) -> Iterator[str]:
         """Iterate over all words in the trie in sorted order."""
         return iter(self.words())
 
